@@ -131,6 +131,13 @@ object ScapegoatConfig extends App {
     //new VariableShadowing,
     // new VarUse,
     new WhileTrue,
+
+    //Miwa199739 add
+    new SimplifyExpression,
+    new ZeroPower,
+    new PowerOfZero,
+    new SequenceLengthCompare,
+
     //new WildcardImport,
     new ZeroNumerator)
 }
